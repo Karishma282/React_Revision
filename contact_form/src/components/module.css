@@ -1,0 +1,47 @@
+
+.card_details {
+    display: flex;
+  }
+  .togglerBtn {
+    margin-bottom: 1.5rem;
+  }
+  .card_details > deleteById {
+    border: 1px solid red;
+    justify-content: end;
+    text-align: end;
+  }
+  
+  .card {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-items: left;
+    padding: 1rem;
+    border: 1px solid rgb(189, 186, 186);
+    cursor: pointer;
+    color: white;
+    border: 1px solid red;
+  }
+  .listbox {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(243, 240, 240);
+  }
+  .profilePic {
+    border-radius: 50%;
+    margin-right: 12px;
+    display:grid;
+  }
+  .name {
+    color: rgb(14, 12, 12);
+   font-weight: bolder;
+    font-size: 20px;
+  }
+  .email {
+    color: gray;
+    font-size: 15px;
+  }
+  .phone {
+    color: gray;
+  }
+  
